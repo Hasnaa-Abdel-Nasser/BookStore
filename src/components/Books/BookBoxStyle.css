@@ -1,0 +1,70 @@
+.books{
+    width: 80%;
+    flex-wrap: wrap;
+}
+.all-books{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 30px
+}
+.header{
+    margin-top: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bookCard{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookCard .data{
+    width: 50%;
+}
+.bookCard .name-book{
+    padding:0;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.bookCard .name-author{
+    padding:0;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: gray;
+}
+.bookCard .book-image{
+    width: 25%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 1px rgb(136, 136, 136);
+}
+button{
+    padding:3px 30px;
+    background-color: transparent;
+    border: 1px rgb(126, 120, 220) solid;
+    border-radius: 20px;
+    color: rgb(126, 120, 220);
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(105, 80, 235, 0.599);
+    color: white
+}
+@media(max-width: 1000px){
+    .all-books{
+        padding: 30px 0;
+    }
+    .bookCard{
+        width: 279px;
+    }
+    .books{
+        width:100%;
+    }
+}

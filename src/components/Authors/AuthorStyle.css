@@ -1,0 +1,40 @@
+
+.author-name{
+    font-size: 13px;
+    padding:0 0 0 20px;
+    font-weight: 500;
+}
+.auth{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.all-author .author-data{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 15px 0 0 15px;
+}
+.class-author .user-picture{
+    width: 40px;
+    height: 40px;
+}
+@media(max-width: 1000px){
+    .class-author{
+       width: 100%;
+    }
+    .all-author .author-data{
+        width: 200px;
+    }
+    .auth{
+        padding-left: 50px;
+    }
+    .all-author{
+        padding: 10px 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
